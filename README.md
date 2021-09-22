@@ -2,5 +2,4 @@
  homework for SVA Hello World
 
 ## week 1
-Explanation of your homework here
-
+assignment1.py
