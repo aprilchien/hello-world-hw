@@ -40,9 +40,9 @@ def printGraphic(name):
 
 def escapeIsland():
     print("-------------------------------")
-    print("You suddenly regain consciousness and find yourself lying in a bed in an unrecognizable wooden cabin. " \
-    "Sitting up, you see " + str(player["lives"]) + " black rings around your left arm. " \
-    "Lying back down, you close your eyes and try to remember how you got there.")
+    print("You suddenly regain consciousness and find yourself lying in a bed in an unrecognizable wooden cabin.")
+    print("Sitting up, you see " + str(player["lives"]) + " black rings around your left arm.")
+    print("Lying back down, you close your eyes and try to remember how you got there.")
     input("press enter >")
     print("-------------------------------")
     print(" Is this a dream? Should you open your eyes or just try and go back to sleep?")
@@ -87,8 +87,8 @@ def escapeIsland():
 
         elif (pcmd == "sleep"):
             print("-------------------------------")
-            print("You sudden feel blinding pain and open your eyes to see someone standing over you with a knife" \
-            " You've been stabbed in the chest.")
+            print("You sudden feel blinding pain and open your eyes to see someone standing over you with a knife.")
+            print(" You've been stabbed in the chest.")
             lose_life()
             input("press enter >")
             escapeIsland()
