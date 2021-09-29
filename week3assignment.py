@@ -41,11 +41,12 @@ def printGraphic(name):
 def escapeIsland():
     print("-------------------------------")
     print("You suddenly regain consciousness and find yourself lying in a bed in an unrecognizable wooden cabin.")
+    print("Last thing you remember, you were at the library.")
     print("Sitting up, you see " + str(player["lives"]) + " black rings around your left arm.")
     print("Lying back down, you close your eyes and try to remember how you got there.")
     input("press enter >")
     print("-------------------------------")
-    print(" Is this a dream? Should you open your eyes or just try and go back to sleep?")
+    print("Is this a dream? Should you open your eyes or just try and go back to sleep?")
     print("options: [ open eyes , sleep ]")
 
     pcmd = input(">")
@@ -55,6 +56,7 @@ def escapeIsland():
             print("-------------------------------")
             print("You open your eyes again to see a man with a knife standing over you")
             print("You quickly roll off the bed to a standing position facing him.")
+            print("           ")
             print("What do you do next?")
             print("options: [ fight man , run away ] ")
             pcmd = input(">")
@@ -87,8 +89,8 @@ def escapeIsland():
 
         elif (pcmd == "sleep"):
             print("-------------------------------")
-            print("You sudden feel blinding pain and open your eyes to see someone standing over you with a knife.")
-            print(" You've been stabbed in the chest.")
+            print("You close your eyes and suddenly feel blinding pain and open your eyes to see someone standing over you with a knife.")
+            print("You've been stabbed in the chest.")
             lose_life()
             input("press enter >")
             escapeIsland()
@@ -117,10 +119,11 @@ def meet_stranger():
             input("press enter >")
             print("-------------------------------")
             print("'Hey, I'm Joe! Welcome to Island Chuhputluh, hope you make it out of here with all your rings!'")
-            print("'And when in doubt, right is always right.' After speaking, Joe turns back to sawing the tree")
+            print("'And when in doubt, left is always right.' After speaking, Joe turns back to sawing the tree")
             input("press enter >")
             print("-------------------------------")
-            print("'You're not too sure what he means but you smile and continue on, heading down an increasingly dim path until you can't see anything.")
+            print("'You're not too sure what he means but you smile and continue on,")
+            print("heading down an increasingly dim path until you can't see anything.")
             input("press enter >")
             forest_trail()
             break
@@ -272,8 +275,9 @@ def food_market():
                 print ("As you reach for the loaf of bread, the stray dog following you starts to growl and tugs on your clothes.")
                 print ("A strange feeling washes over you and you decide to pass on the bread and continue on.")
                 input("press enter >")
-                print("-------------------------------")
-                print ("As you're leaving you glance behind the booth and are shocked to see a number of dead mice lying on top of half eaten pieces of bread.")
+                print ("-------------------------------")
+                print ("As you're leaving you glance behind the booth and are shocked to see a number")
+                print ("of dead mice lying on top of half eaten pieces of bread.")
                 input("press enter >")
                 final_door()
             else:
