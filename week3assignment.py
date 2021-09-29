@@ -335,6 +335,7 @@ def lose_life():
 
     if (player["lives"] <= 0):
         player["lives"] = 3
+        print("You feel yourself blacking out and lose consciousness.")
         escapeIsland()
     else:
         print("You feel yourself blacking out and lose consciousness.")
