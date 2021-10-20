@@ -8,3 +8,7 @@ week2assignments.py
 ## week 3
 week3assignment.py
 // A choose your own adventure game
+
+## week 4
+week4assignment.py
+// A randomly generated cloudy sky
