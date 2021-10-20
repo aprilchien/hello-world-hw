@@ -12,3 +12,7 @@ week3assignment.py
 ## week 4
 week4assignment.py
 // A randomly generated cloudy sky
+
+## week 6
+week6assignment.js
+// Red light green light game inspired by squid game
